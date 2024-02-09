@@ -25,7 +25,7 @@ def preprocess_text(text):
     return word_tokenize(text.lower())
 
 def extract_cgpa(text):
-    cgpa_pattern = r'\b\d\.\d{1,2}/\d{1,2}|\b\d\.\d{1,2}\b'  # Pattern for CGPA (e.g., 3.75, 4.0, etc.)
+    cgpa_pattern = r'\b\d\.\d{1,2}\b'  # Pattern for CGPA (e.g., 3.75, 4.0, etc.)
     cgpa_matches = re.findall(cgpa_pattern, text)
     return cgpa_matches
 
@@ -43,7 +43,6 @@ def calculate_similarity(model, text1, text2):
     vector2 = model.infer_vector(preprocess_text(text2))
     return cosine_similarity([vector1], [vector2])[0][0]
 
-# Title of the application
 # Title of the application
 st.title('Resume Matching Tool')
 
@@ -92,13 +91,12 @@ if uploaded_file and selected_folder:
 
     # Process resumes
     resumes_files = [os.path.join(selected_folder, file) for file in os.listdir(selected_folder) if file.endswith(".pdf")]
-    selected_job_text = extract_text_from_pdf(uploaded_file)
+
     # Preprocess the documents and create TaggedDocuments for resumes
     tagged_resumes = [TaggedDocument(words=preprocess_text(extract_text_from_pdf(resume_path)), tags=[str(i)]) for i, resume_path in enumerate(resumes_files)]
     
     # Train Doc2Vec model for resumes
     model_resumes = train_doc2vec_model(tagged_resumes)
-    all_resumes_text = [extract_text_from_pdf(resume_path) for resume_path in resumes_files]
 
     # Create a DataFrame to store the results
     results_data = {'Resume': [], 'Similarity Score': [], 'CGPA': [], 'Total Score': [], 'Email': [], 'Contact': []}
@@ -106,7 +104,7 @@ if uploaded_file and selected_folder:
     # Compare the selected job description with all resumes
     for i, resume_file in enumerate(resumes_files):
         similarity_score = calculate_similarity(model_resumes, extract_text_from_pdf(resume_file), job_description_text)
-        cgpa_matches = extract_cgpa(all_resumes_text[i])
+        cgpa_matches = extract_cgpa(extract_text_from_pdf(resume_file))
         cgpa = ', '.join(cgpa_matches) if cgpa_matches else 'Not found'
         results_data['Resume'].append(os.path.basename(resume_file))
         results_data['Similarity Score'].append(similarity_score*100)
@@ -114,15 +112,11 @@ if uploaded_file and selected_folder:
 
         emails = re.findall(email_pattern, extract_text_from_pdf(resume_file))
         contacts = re.findall(phone_pattern, extract_text_from_pdf(resume_file))
-        if(cgpa=="Not found"):
-            # print("str")
+        if cgpa == "Not found":
             results_data['Total Score'].append(similarity_score*100)
         else:
-            # print("int")
-            # sc=float(cgpa)+smScore
-            sc=cgpa
-            results_data['Total Score'].append(sc)
-
+            total_score = float(cgpa) + similarity_score*100
+            results_data['Total Score'].append(total_score)
 
         results_data['Email'].append(emails)
         results_data['Contact'].append(contacts)
@@ -134,7 +128,6 @@ if uploaded_file and selected_folder:
     results_df = results_df.sort_values(by='Similarity Score', ascending=False)
 
     # Display the results table
-    st.subheader("Matching Results")
     st.table(results_df)
 
     # Download results
@@ -143,6 +136,21 @@ if uploaded_file and selected_folder:
 
     v_spacer(height=3, sb=False)
 
+    # if st.button("Show Visualization"):
+    #     # Load your images
+    #     image1 = "image1.jpg"
+    #     image2 = "image2.jpg"
+    #     image3 = "image3.jpg"
+    #     # Create two columns
+    #     col1, col2 = st.columns(2)
+
+    #     # Display the first image in the first column
+    #     col1.image(image1, caption="Top Matching Skills", use_column_width=True)
+
+    #     # Display the second image in the second column
+    #     col2.image(image2, caption="Skills Distribution", use_column_width=True)
+
+    #     st.image(image3, "Skills")
     fig, ax = plt.subplots(figsize=(10, 6))
     ax.bar(results_df['Resume'], results_df['Similarity Score'], color='blue')
     ax.set_xlabel('Resume')
@@ -171,4 +179,3 @@ if uploaded_file and selected_folder:
 
             # Display the Matplotlib plot in Streamlit
     st.pyplot(fig)
-
