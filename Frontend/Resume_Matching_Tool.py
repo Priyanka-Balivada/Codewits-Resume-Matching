@@ -1,8 +1,11 @@
+from collections import Counter
 import streamlit as st
 import os
 import nltk
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk.tokenize import word_tokenize
+from collections import Counter
+
 import PyPDF2
 import pandas as pd
 import re  # Added import for regular expressions
@@ -12,6 +15,7 @@ import networkx as nx
 
 nltk.download('punkt')
 
+
 def extract_text_from_pdf(pdf_path):
     with open(pdf_path, 'rb') as file:
         pdf_reader = PyPDF2.PdfReader(file)
@@ -20,28 +24,45 @@ def extract_text_from_pdf(pdf_path):
             text += pdf_reader.pages[page_num].extract_text()
     return text
 
+
+def extract_skills(text):
+    skills_keywords = ["python", "java", "machine learning",
+                       "data analysis", "communication", "problem solving"]
+    skills = [skill.lower()
+              for skill in skills_keywords if skill.lower() in text.lower()]
+    return skills
+
+
 def preprocess_text(text):
     return word_tokenize(text.lower())
 
 # Function to extract CGPA from text using regular expressions
+
+
 def extract_cgpa(text):
-    cgpa_pattern = r'\b(\d\.\d{1,2})/\d{1,2}|\b(\d\.\d{1,2})\b'  # Pattern for CGPA (e.g., 3.75, 4.0, etc.)
+    # Pattern for CGPA (e.g., 3.75, 4.0, etc.)
+    cgpa_pattern = r'\b(\d\.\d{1,2})/\d{1,2}|\b(\d\.\d{1,2})\b'
     cgpa_matches = re.findall(cgpa_pattern, text)
     return [float(match[0]) if match[0] else 0 for match in cgpa_matches]
+
 
 email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 phone_pattern = r'\b\d{10}\b|\b\d{3}[-.\s]?\d{3}[-.\s]?\d{4}\b'
 
+
 def train_doc2vec_model(documents):
     model = Doc2Vec(vector_size=20, min_count=2, epochs=50)
     model.build_vocab(documents)
-    model.train(documents, total_examples=model.corpus_count, epochs=model.epochs)
+    model.train(documents, total_examples=model.corpus_count,
+                epochs=model.epochs)
     return model
+
 
 def calculate_similarity(model, text1, text2):
     vector1 = model.infer_vector(preprocess_text(text1))
     vector2 = model.infer_vector(preprocess_text(text2))
     return model.dv.cosine_similarities(vector1, [vector2])[0]
+
 
 def v_spacer(height, sb=False) -> None:
     for _ in range(height):
@@ -50,37 +71,51 @@ def v_spacer(height, sb=False) -> None:
         else:
             st.write('\n')
 
+
 # Streamlit Frontend
 st.title("Resume Matching Tool")
 
 # Sidebar - Select Job Descriptions Folder
-job_descriptions_folder = st.sidebar.text_input("Enter the path or name of the job descriptions folder")
+job_descriptions_folder = st.sidebar.text_input(
+    "Enter the path or name of the job descriptions folder")
 
 # Sidebar - Select Resumes Folder
-resumes_folder = st.sidebar.text_input("Enter the path or name of the resumes folder")
+resumes_folder = st.sidebar.text_input(
+    "Enter the path or name of the resumes folder")
 
 # Sidebar - Select Excel Output Folder
-output_folder = st.sidebar.text_input("Enter the path or name of the output folder for Excel file","./")
+output_folder = st.sidebar.text_input(
+    "Enter the path or name of the output folder for Excel file", "./")
 
 # Sidebar - Sorting Options
 sort_options = ['Similarity Score', 'CGPA', 'Total Score']
 selected_sort_option = st.sidebar.selectbox("Sort results by", sort_options)
 
-job_descriptions_files = [os.path.join(job_descriptions_folder, file) for file in os.listdir(job_descriptions_folder) if file.endswith(".pdf")]
-selected_job_file = st.sidebar.selectbox("Choose a job description", job_descriptions_files, format_func=lambda x: os.path.basename(x))
+job_descriptions_files = [os.path.join(job_descriptions_folder, file) for file in os.listdir(
+    job_descriptions_folder) if file.endswith(".pdf")]
+selected_job_file = st.sidebar.selectbox(
+    "Choose a job description", job_descriptions_files, format_func=lambda x: os.path.basename(x))
 selected_job_text = extract_text_from_pdf(selected_job_file)
 
 # Backend Processing
-resumes_files = [os.path.join(resumes_folder, file) for file in os.listdir(resumes_folder) if file.endswith(".pdf")]
-resumes_texts = [extract_text_from_pdf(resume_path) for resume_path in resumes_files]
+resumes_files = [os.path.join(resumes_folder, file) for file in os.listdir(
+    resumes_folder) if file.endswith(".pdf")]
+resumes_texts = [extract_text_from_pdf(
+    resume_path) for resume_path in resumes_files]
+# Calculate skills for all resumes
+all_resumes_skills = [extract_skills(resume_text)
+                      for resume_text in resumes_texts]
 
-tagged_resumes = [TaggedDocument(words=preprocess_text(text), tags=[str(i)]) for i, text in enumerate(resumes_texts)]
+tagged_resumes = [TaggedDocument(words=preprocess_text(
+    text), tags=[str(i)]) for i, text in enumerate(resumes_texts)]
 model_resumes = train_doc2vec_model(tagged_resumes)
 
-results_data = {'Resume': [], 'Similarity Score': [], 'CGPA': [], 'Total Score': [], 'Email': [], 'Contact': []}
+results_data = {'Resume': [], 'Similarity Score': [],
+                'CGPA': [], 'Total Score': [], 'Email': [], 'Contact': []}
 
 for i, resume_text in enumerate(resumes_texts):
-    similarity_score = calculate_similarity(model_resumes, resume_text, selected_job_text)
+    similarity_score = calculate_similarity(
+        model_resumes, resume_text, selected_job_text)
     cgpa_values = extract_cgpa(resume_text)
     cgpa = ', '.join(map(str, cgpa_values)) if cgpa_values else '0'
     results_data['Resume'].append(os.path.basename(resumes_files[i]))
@@ -105,75 +140,81 @@ elif selected_sort_option == 'CGPA':
     results_df = results_df.sort_values(by='CGPA', ascending=False)
 else:
     results_df = results_df.sort_values(by='Total Score', ascending=False)
-
 # Display the results table with job description name
-st.subheader(f"Results Table for Job: {os.path.basename(selected_job_file)} (sorted by {selected_sort_option} in descending order):")
+st.subheader(
+    f"Results Table for Job: {os.path.basename(selected_job_file)} (sorted by {selected_sort_option} in descending order):")
 st.table(results_df)
 
-# Download Button for Excel with job description name
-excel_file_name = f"results_{os.path.basename(selected_job_file).replace('.pdf', '')}.xlsx"
-if st.button(f"Download Results as Excel ({excel_file_name})"):
-    output_path = os.path.join(output_folder, excel_file_name)
-    results_df.to_excel(output_path, index=False)
-    st.success(f"Results downloaded successfully! File saved at {output_path}")
 
-v_spacer(height=5, sb=False)
+# Create a DataFrame for skills distribution
+skills_distribution_data = {'Resume': [], 'Skill': [], 'Frequency': []}
+for i, resume_skills in enumerate(all_resumes_skills):
+    for skill in set(resume_skills):
+        skills_distribution_data['Resume'].append(
+            os.path.basename(resumes_files[i]))
+        skills_distribution_data['Skill'].append(skill)
+        skills_distribution_data['Frequency'].append(
+            resume_skills.count(skill))
 
-# Plot a Bar Chart to show the distribution of similarity scores
-fig, ax = plt.subplots(figsize=(10, 6))
-ax.bar(results_df['Resume'], results_df['Similarity Score'], color='blue')
-ax.set_xlabel('Resume')
-ax.set_ylabel('Similarity Score')
-ax.set_title('Similarity Scores between Job Description and Resumes')
+skills_distribution_df = pd.DataFrame(skills_distribution_data)
 
-# Set the tick locations and labels
-ax.set_xticks(range(len(results_df['Resume'])))
-ax.set_xticklabels(results_df['Resume'], rotation=45, ha='right')
+# Pivot the DataFrame for heatmap
+skills_heatmap_df = skills_distribution_df.pivot(
+    index='Resume', columns='Skill', values='Frequency').fillna(0)
 
-plt.tight_layout()
-st.pyplot(fig)
+# Normalize the values for better visualization
+skills_heatmap_df_normalized = skills_heatmap_df.div(
+    skills_heatmap_df.sum(axis=1), axis=0)
 
-# Plot a Pie Chart to show the distribution of similarity scores
-plt.figure(figsize=(8, 8))
+# Plot the heatmap
 
-v_spacer(height=5, sb=False)
 
-# Normalize similarity scores to be non-negative
-normalized_scores = results_df['Similarity Score'] - results_df['Similarity Score'].min()
-total_similarity = normalized_scores.sum()
 
-# Check if all similarity scores are zero
-if total_similarity == 0:
-    # If all scores are zero, assign equal weights
-    normalized_scores = 1
+
+# Find the index of the highest similarity score
+highest_score_index = results_df['Similarity Score'].idxmax()
+highest_score_resume = resumes_files[highest_score_index]
+
+# Details of Highest Similarity Score
+st.subheader("\nDetails of Highest Similarity Score Resume:")
+st.write(f"Resume Name: {os.path.basename(highest_score_resume)}")
+st.write(
+    f"Similarity Score: {results_df.loc[highest_score_index, 'Similarity Score']:.2f}")
+
+# Check if 'CGPA' column exists in the DataFrame
+if 'CGPA' in results_df.columns:
+    st.write(f"CGPA: {results_df.loc[highest_score_index, 'CGPA']}")
 else:
-    # Normalize scores
-    normalized_scores /= total_similarity
+    st.write("CGPA: None")
 
-plt.pie(normalized_scores, labels=results_df['Resume'], autopct='%1.1f%%', startangle=90, colors=sns.color_palette('viridis'))
-plt.title('Distribution of Similarity Scores with Job Description')
-st.pyplot(plt)
+# Check if 'Total Score' column exists in the DataFrame
+if 'Total Score' in results_df.columns:
+    st.write(
+        f"Total Score: {results_df.loc[highest_score_index, 'Total Score']:.2f}")
+else:
+    st.write("Total Score: None")
 
+# Check if 'Email' column exists in the DataFrame
+if 'Email' in results_df.columns:
+    st.write(f"Email: {results_df.loc[highest_score_index, 'Email']}")
+else:
+    st.write("Email: None")
 
-v_spacer(height=5, sb=False)
-# Create a Knowledge Graph using NetworkX
-G = nx.Graph()
+# Check if 'Contact' column exists in the DataFrame
+if 'Contact' in results_df.columns:
+    st.write(f"Contact: {results_df.loc[highest_score_index, 'Contact']}")
+else:
+    st.write("Contact: None")
 
-# Add nodes for job description and resumes
-G.add_node('Job Description', color='blue', size=100)
-for i, resume_path in enumerate(resumes_files):
-    G.add_node(os.path.basename(resume_path), color='green', size=30)
+# Plot the heatmap
+fig, ax = plt.subplots(figsize=(12, 8))
+sns.heatmap(skills_heatmap_df_normalized,
+            cmap='YlGnBu', annot=True, fmt=".2f", ax=ax)
+ax.set_title('Heatmap for Skills Distribution')
+ax.set_xlabel('Resume')
+ax.set_ylabel('Skill')
 
-# Add edges with similarity scores as weights
-for i, resume_file in enumerate(resumes_files):
-    similarity_score = calculate_similarity(model_resumes, extract_text_from_pdf(resume_file), selected_job_text)
-    G.add_edge('Job Description', os.path.basename(resumes_files[i]), weight=similarity_score)
-
-# Plot the Knowledge Graph
-pos = nx.spring_layout(G, seed=42)
-fig, ax = plt.subplots(figsize=(12, 12))
-nx.draw(G, pos, with_labels=True, font_size=8, node_size=[d['size'] for n, d in G.nodes(data=True)], node_color=[d['color'] for n, d in G.nodes(data=True)], ax=ax)
-edge_labels = nx.get_edge_attributes(G, 'weight')
-nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red', ax=ax)
-ax.set_title('Knowledge Graph: Similarity Relationships between Job Description and Resumes')
+# Display the Matplotlib figure using st.pyplot()
 st.pyplot(fig)
+
+# ...
