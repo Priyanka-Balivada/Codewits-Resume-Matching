@@ -1,0 +1,44 @@
+Kalpesh Narendra Ghorse
+ghorsekalpesh@gmail.com | 7721027665
+EDUCATIONGovernment College of Engineering, Nagpur
+Bachelor of Engineering - Computer Science & Engineering, Aug 2018 - July 2022	     
+Shivaji Science College, Nagpur
+Electronics - 12th Class
+73.38%
+South Point School, Nagpur
+10th Class
+92%
+SKILLSCGPA: 8.16/10Programming Languages:C, C++, Python, Java, Spring, Spring boot, HibernateWeb Technologies:ReactJS, HTML, CSS, JavaScript,Bootstrap, jQuery,NodeJS,AngularDatabases:
+WORK EXPERIENCEMySQL, MongoDBThe Sparks Foundation -Internship- Web Development & Designing	1-31 , December 2021
+? Developed a web-based Basic Banking System as an internship project
+? Implemented core functionalities allowing users to simulate money transfers between bank accounts.
+? Built a user-friendly interface enabling easy navigation through customer profiles, transaction history, and fund transfers.
+? Applied DOM manipulation to update account balances and display transaction history dynamically.
+? The names and other details of the customers can be viewed
+? The sender can send money to the recipient by entering the amount
+? Transaction history could be viewed
+PROJECTS
+
+Student Info Portal
+? Designed and implemented a comprehensive Student Info Portal using Java Spring Boot for the backend and React for the frontend.
+? The system facilitates efficient student data management, enabling seamless addition and retrieval of student information.
+? Developed RESTful APIs for data interaction, ensuring secure and optimized performance.
+? Spring Data JPA for database interactions : Leverages powerful object-relational mapping capabilities for seamless data persistence.
+IOT based city pollution monitoring, MQ135, DHT11 SENSORS, ReactJS
+? Worked on interfacing DHT11 humidity and temperature sensor with Arduino ? Created a web-based dashboard using ReactJS to visualize air quality data.
+? Used individual gas sensors to detect the concentration of each gas
+? At regular intervals, data detected was transferred to Google Firebase Flatform
+? Used NodeMCU Esp8266 to connect to the Internet to send data to Google Firebase Real Time Database.
+? Successfully deployed the system and monitored air quality Profile Application
+? Built a robust backend to handle CRUD operations (Create, Read, Update, Delete) for user profiles.
+? Constructed a responsive front-end interface using HTML, CSS, and JavaScript for a seamless user experience.
+? Utilized Python Flask for creating RESTful APIs and managing backend functionalities.
+? Integrated MySQL for database management, implementing CRUD operations for profile handling.
+Spam Detection using Machine Learning
+? Developed a machine learning model for spam detection, utilizing fundamental ML techniques.
+? Created a classification system to identify and differentiate spam emails from legitimate ones.
+? Trained and evaluated the model's performance, fine-tuning parameters to achieve optimal results.
+CERTIFICATIONS
+
+? (ONGOING) JAVA PROGRAMMING STACK - BY FIRSTBIT SOLUTION SKILLS : CORE JAVA, ADVANCE JAVA, SPRING BOOT, SPRING, HIBERNATE
+? Complete Machine Learning & Data Science Bootcamp 2023 - From Udemy

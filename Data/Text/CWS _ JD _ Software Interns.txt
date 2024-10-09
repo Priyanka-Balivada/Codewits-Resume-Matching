@@ -1,0 +1,79 @@
+Codewits Solutions Pvt Ltd. CIN: U72200PN2020PTC189955
+Position Overview:
+ We are seeking a talented and motivated Software Intern to join our cybersecurity startup. As a Software Intern, you will have the opportunity to work alongside industry veterans and cybersecurity experts, contributing to the development of our cutting-edge security software solutions.
+Software Intern 1:
+Your role will involve writing code in Golang and C/C++, ensuring the security and reliability of our software products. Knowledge of Linux internals, kernel, networking and encryption protocols such as TLS, SSL, HTTP, and experience with C/C++ will be a significant advantage in this role.
+What will you gain:
+During your tenure as a Software Intern specializing in Golang and cybersecurity at our startup, you will have the opportunity to learn and gain valuable skills and knowledge. Working alongside industry veterans and cybersecurity experts, you will acquire in-depth insights into secure software development practices and the intricacies of building robust, reliable, and secure applications. You will deepen your understanding of Golang and C/C++ programming languages, sharpen your problem-solving and analytical skills, and learn how to apply secure coding techniques to prevent common security vulnerabilities. Additionally, you will gain hands-on experience in conducting security testing, creating comprehensive test cases, and analyzing Linux internals and kernel to identify and address potential security risks. Through collaboration, code reviews, and knowledge-sharing activities, you will expand your expertise in cybersecurity, encryption protocols, networking concepts, and the latest industry trends. This internship will provide you with a solid foundation for a successful career in software development and cybersecurity, empowering you to make a tangible impact in the ever-evolving field of cybersecurity.
+Responsibilities:
+? Collaborate closely with industry veterans and cybersecurity experts to design, implement, and maintain secure software applications using Golang and C/C++.
+? Write clean, efficient, and secure code in Golang and C/C++, adhering to coding standards and cybersecurity best practices.
+? Conduct in-depth analysis of Linux internals, kernel, and networking protocols to identify potential security vulnerabilities and implement robust security measures.
+? Develop comprehensive test cases and perform thorough security testing to identify and address potential security risks.
+? Stay updated with the latest cybersecurity trends, techniques, and tools, leveraging the expertise of industry veterans and cybersecurity experts.
+? Assist in the investigation and resolution of security incidents and vulnerabilities under the guidance of the cybersecurity team.
+? Actively engage in team meetings, brainstorming sessions, and knowledge-sharing activities, learning from industry veterans and contributing your insights to the team's growth and the organization's success.
+E 403, Rohan Madhuban 2, Bavdhan, Pune 411021
+Requirements:
+? Currently pursuing a degree in Computer Science, Software Engineering, Cybersecurity, or a related field.
+? Strong programming skills in Golang and C/C++, with a solid understanding of their core concepts and best practices.
+? Knowledge of Linux internals, kernel, and networking and encryption protocols (e.g., TLS, SSL, HTTP) would be a significant advantage.
+? Familiarity with cybersecurity principles and best practices.
+? Understanding of secure coding practices and common security vulnerabilities.
+? Familiarity with version control systems (e.g., Git) and collaborative development workflows.
+? Good problem-solving and analytical skills to identify and address security-related issues.
+? Excellent communication and teamwork skills to collaborate effectively with industry veterans, cybersecurity experts, and the development team.
+? Self-motivated and able to work independently with minimal supervision.
+? Strong attention to detail and commitment to delivering high-quality, secure software solutions.
+Software Intern 2: Data Scientist
+As a Software Intern - Data Scientist a Bachelor's degree in a related field. The successful candidate will have a strong analytical mindset, experience handling large-scale data sets, and a passion for making significant contributions to our team.
+Key Responsibilities:
+? Analyze large, complex data sets to derive valuable insights and develop data-driven strategies.
+? Apply advanced statistical and predictive modeling techniques to build, maintain, and improve on multiple real-time decision systems.
+? Design and build predictive models and machine-learning algorithms.
+? Work closely with teams to integrate models into our products and systems.
+? Present findings and translate complex results into business language.
+? Identify valuable data sources and automate collection processes.
+Requirements:
+? Bachelor's Degree in Statistics, Computer Science or related quantitative field.
+? Knowledge of programming languages (Python, R) and familiarity with machine learning frameworks.
+? Understanding of data architecture, structures, and principles with experience in SQL and NoSQL databases.
+? Strong analytical skills with the ability to collect, organize, and analyze large amounts of information with attention to detail and accuracy.
+? Proficient understanding of machine learning algorithms, such as K-NN, Naive Bayes, SVM, Decision Forests, etc.
+? Experience using data visualization tools, such as Kibana, Grafana, etc.
+Preferred:
+? Experience with big data tools (Hadoop, Spark, Kafka, etc.) ? Proficiency with AWS cloud services: EC2, EMR, RDS, Redshift.
+? Familiarity with threat intelligence data. ? Experience with live streaming data.
+Software Intern 3:
+We are seeking a proficient Data Engineer with a Bachelor's degree and knowledge of data-related roles. The individual will play a vital role in optimizing our data systems, working closely with our team to support data initiatives, and managing large-scale data sets.
+Key Responsibilities:
+? Design, construct, test, and maintain data management systems.
+? Implement and optimize data processing pipelines and architectures.
+? Collaborate with various teams to address data-related technical needs.
+? Develop and manage live streaming data processes.
+? Aid in identifying opportunities for data acquisition.
+? Uphold secure protocols for data handling and protection.
+Requirements:
+? Bachelor's Degree in a quantitative field.
+? 1-4 years of experience in data engineering or related roles.
+? Proficiency in distributed computing principles.
+? Experience with big data and open-source tools (Hadoop, Spark, Kafka, etc.) ? Familiarity with relational SQL and NoSQL databases.
+? Experience with AWS cloud services: EC2, EMR, RDS, Redshift.
+? Expertise in managing large data sets and live streaming data. ? Strong analytical skills and project management abilities.
+Preferred:
+? Experience with stream-processing systems (Storm, Spark-Streaming, etc.)
+? Proficiency in scripting languages (Python, Java, C++, Scala, etc.) ?	Some familiarity with threat intelligence data.
+
+
+
+
+
+
+
+
+
+
+
+
+	| 	info@codewits.in	|	 www.codewits.in
+

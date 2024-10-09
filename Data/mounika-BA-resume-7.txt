@@ -1,0 +1,221 @@
+
+Mounika
+Business Analyst                                                                                   Email: smounika.ba@gmail.com
+Phone :717-559-5134
+
+OVERVIEW:
+
+Business Analyst over 7 years of experience supporting business solution, software and analyzing business operations.Aiming to utilize my strong prioritization skills and analytical ability to achieve the goals of the company.As a Business Systems Analyst, I am instrumental to the successful Planning, Execution, and Delivery of Complex Technology Development Projects. The combination of my Analytical, Technical, and Interpersonal Skills allows me to engage with key stakeholders at all levels to elicit detailed requirements and develop an in-depth understanding of their user needs, Business Challenges and Constraints. Additionally,through a proactive approach to risk management, I am able to Identify Impacts and Dependencies across applications, platforms, workflows, and processes to ensure the project team considers all issues.
+
+PROFESSIONAL SUMMARY:
+
+* Over 7+ years of professional experience as a Business AnalystInHealth care domain.
+* Extensive experience in development with comprehensive understanding of Software Development Life Cycle (SDLC), various phases like Requirement analysis, Design, Development and Testing.
+* Duties included communicating with business users, project managers, development team and QA team.
+* Experience in understanding user needs and creating Business Requirements Document (BRD) and functional requirement document (FRD)and maintaining the Requirement Traceability Matrix (RTM) related documents.
+* Experience in several phases of Software Development Life Cycle (SDLC) and Methodologies such as Agile-Scrum methodology, Rational Unified Process (RUP) and Traditional Waterfall Model.
+* ConductedJoint Requirement Planning (JRP) and Joint Application Development (JAD) sessions with end users, SMEs and development team for project meetings, walkthroughs.
+* Proficient inUMLby creating Use-Case Diagrams, Sequence Diagrams, Activity Diagrams and Class Diagrams.
+* Implementation and Knowledge of Facets, HIPAA code sets, 4010-5010 Migration, ICD-9, ICD-10 coding, HL7 and HEDIS rules and regulations.
+* Good knowledge of Database Relationships and Concepts, worked on RDMS & ER Diagrams.
+* Excellent command on web development techniques such as HTML/CSS.
+* Excellent verbal and written communication skills with strong presentation skills.
+* Expertise in designing Test plans, Test Script/Test case and RTM
+* Excellent facilitation skills in conducting walkthroughs, surveys, questionnaires, interviews, brainstorming and JAD sessions.
+* Expertise in writing Business Requirements Document(BRD),System Requirements Document(SRD), maintaining Requirement Traceability Matrix (RTM).
+* Experience with Agile, Scrum, and Waterfall methodologies
+TECHNICAL SKILLS:
+
+Business Modeling ToolsMS Visio, Rup,RationalRose,UML.Methodologies/ SDLCAgile/Scrum, Waterfall.Management ToolsMS Project, MS Visio, Word, Excel, PowerPoint.Testing ToolsQuality Center, Quick Test Professional (QTP), Load Runner.Programming LanguagesSQL, PL/SQL,HTML, XML, C.BI ToolsJira,RUP,Microsoft Office Suite.LanguagesHtml, CSS, Xml, Java Script.DataBaseMS SQL Server, MS Access.
+WORK EXPERIENCE:
+
+CLIENT: SAP ,Palo Alto, CA
+DURATION: Oct'2017-Till Date
+ROLE: BUSINESS ANALYST.
+Project Description:
+
+SAP provides a wide range of health services including full range of hospitals, home-based care and emergency services. The project with the medical center was in relation to the Medicare population base being HIPAA complaint. This included gathering and documentation of user requirements, analyzing the existing system and performing gap analysis to relate to the target system.
+
+Responsibilities:
+
+* Analysis for making system compliant with HIPAA. Involved in making the Medicare patient profiles being compliant with the HIPAA regulations. Management of Patient Profile Transfer (PPT) reports created by data team by verifying the associated data.
+* Thoroughly studied the inherent systems to have a clear understanding of the business processes and associated system workflow.
+* Clarified and prioritized requirements by conducting brainstorming sessions with the stakeholders and SMEs(Subject Matter Expert).
+* Control Management Reporting and Security Systems: generation of daily, weekly, and monthly reports of hospital patients' activity. Medical Billing and Collection Systems: generation of daily billing activity based on patient records and establishment of collection protocols. Accounting Systems: Financial Statement generation and analysis according to government standards and protocols.
+* Working knowledge of Epic Rx /Epic Lab/Epic Care Inpatient/Health Information Management and Chart Tracking.
+* Responsible for architecting integrated HIPAA, Medicare solutions, FACETS.
+* Defined Functional test cases, documented, executed test script in FACETS system.
+* Used knowledge of Health Care Information Systems EMR model to develop proposed workflow in MS Visio.
+*  Experience with the use of clinical laboratory information systems within a medium to large clinical laboratory.
+* Carried out detailed and comprehensive business analysis with the Waterfall Methodology.
+* Produced Use case scenarios to help the users drive through the requirements phase.
+* Proficient in creating Business Requirement Documents(BRD),Use-Case Diagrams, Sequence Diagrams, Activity Diagrams and Class Diagrams.
+* Communicated the User Stories and Acceptance criteria continually and clearly to the team.
+* Preparation of the functional 'to be' template and mapping with the ERP system.
+* Facilitated the meeting using PowerPoint Presentation and followed up with the team with accurate and detailed meeting minutes and action items.
+* Created Business Process Flows using MS Visio for operations process.
+* Prepared business and technical specifications for the development teams and tracked in TFS.
+* Supported business as usual requests for the ERP system and other interfaced applications.
+* ERP SME for all projects, enhancements, and testing.
+* Provided reference to system users by writing and maintaining user documents. 
+* Performed system end-user support by troubleshooting and resolving application problems.
+* Allocated resources and scheduled resources when needed.
+* Experienced in using tools like Rational Rose and MS Visio for Business Process Modeling (BPM) and Designing Data Flow Diagrams (DFD),UML diagrams like State, Activity, Sequence, swim lane, Class, Use Case Diagrams, and Business Workflow Chart.
+* Performed User Acceptance Testing (UAT) and worked closely with QA team to perform different types of testing to thoroughly validate the Product/application.
+Environment:UML, MS Project, Microsoft Office 2010/2013 (Outlook, word, excel, access), Microsoft share point 2010/2013,MS Visio, Team Foundation Server (TFS) 2015,EDI ANSI X12/HIPAA,
+
+Client: Fremont Healthcare Center, Fremont, CA                            		
+Duration: APR'2017- SEP'2017
+Role:BUSINESS ANALYST
+
+I was contracted as a Business Analyst designed to cater to the needs of the business department of the Organization. This team handles a major portion of the claims processing for the many thousands of claims that are filed by the provider's every day. The project required the addition of new features that were brought about by transactions in the HIPAA code. These transactions included the transfer of monies between the providers and the Medicare program. The project would allow these transactions to be processed faster and in a more efficient manner.
+
+Responsibilities
+
+* Interfaced with business users to prepare and update Business Requirements Document (BRD),wireframes, and Detailed Requirements Document. 
+* Experienced in creating Business Requirement Documents, User Requirement Specification, and Functional Requirement Specifications.
+* Developed use cases with UML using Microsoft Visio 2010 for new application functionality. 
+* Conducted JAD Sessions with Management, SME (Subject Matter Expertise), users and other stakeholders for open and pending issues to develop specifications.
+* Reviewed the Joint Requirement Documents (JRD) with the cross functional team to analyze the High Level Requirements.
+* Worked with Information Architects (IA) and other representatives from the User Experience (UX) team to design wireframes, mock ups, and process flows. 
+* Created mockups and wireframes using MS Visio.
+* Ensured all artifacts complied with corporate SDLC Policies and guidelines.
+* Designed customer web portal with technical team.
+* Built various use case scenarios and As-Is scenarios for the Web portal.
+* Identified various call types for member services based on the call volume for Medicaid system in place. (ID card request, Benefit clarification, network adequacy and others)
+* Identified and created SOPs and  training necessities for the CSRs .
+* Responsible for conducting and analyzing the impact analysis of the conversion from ICD-9 to ICD-10.
+* Worked with ICD codes, mappings and validation.
+* Performed migration from ICD-9 to ICD-10 and knowledge of ICD-9 CM, ICD-10 CM/PCS structures an formats.
+* Responsible for conducting various meetings with business and functional owner where I presented the mockups to the testing teams.
+* Communicated with different vendors to standardized common data sources.
+
+Environment: Waterfall, MS Word, Excel, Project, Visio, SharePoint, Appian
+
+Client: UnitedHealth Group, Irvine CA
+Duration: July 2016 - FEB'2017
+Title: BUSINESS ANALYST
+Project Description:
+
+The project included the HIPAA Business Analysis and Quality Assurance testing activities, primarily for the addition of a new Medicare Advantage Health Plan to the standard e-Portal usability platform for Eligibility and Benefits application for the Providers, Members, Customer Service and Provider web transactions and to choose the details about the medical service types, deductible and benefit limitations. This new Health Plan provides the benefits of Original Medicare and Prescription Drug Coverage. Additionally,involved in a parallel project team that implemented migration of HIPAA 4010 transactions to 5010 transactions as well as ICD-9 to ICD-10 code sets.
+
+Responsibilities:
+
+* Gathered and understood the requirements, was involved in writing a business requirement document and communicated Product road map to the end users.
+* Gathered requirements for HIPAA 5010 migration.
+* Defined detailed description of user needs (Use Cases), program functions (Business Rules and Supplementary Specifications).
+* Involved in duties such as including the development requirements management, project monitoring, and change management using MS Project.
+* Ensure project tasks stay on schedule.
+* Meet regularly with the Project and IT owner to discuss status and issues.
+* Acted as the lead business analyst for website used by customers to place pharmaceutical orders. This project was developed implementing RUP methodology.
+* Actively involved in Gap Analysis and impact analysis.
+* Suggested processes flow for Business Rule Extraction. 
+* Created Claims Vocabulary that is useful for differentiating claims business rules at Business Entity and an Attribute (key business variable) level. 
+* Coordinated with SME, obtaining clarifications to functional queries and verification/validation of the findings.
+* Reviewed Interim Sheet (containing all rules system and business) and Business Rules Sheet created by the team for a business module.
+* Initiated and facilitated the weekly status calls, tracked issues/concerns to closer and followed up on open items that were raised during the call.
+* Carried out Business Rules Consolidation process for all the modules for Unified Claims System and shared the Business Rule doc with the Business owner.
+* Managed the privacy and security environments of healthcare data that was governed by HIPAA and other government mandates.
+* Extensive knowledge of Electronic Medical Records (EMR) and Electronic Health Records(EHR).
+* Executed efforts within the SDLC parameters to ensure customer satisfaction and drove projects to completion throughout product deployment, implementation and configuration lifecycle.
+* Performed Gap analysis for migration of HIPAA transactions from 4010 standard version to 5010 standard version.
+* Performed impact analysis for readiness of ICD-10 conversion.
+* Involved in creation of Process Documents, Templates, Checklist & Training material. 
+* Carried out Business Rule presentation walkthroughs with the stakeholders.
+* Suggested process improvements for delivering quality output from associates
+* Understood and articulated business requirements by having sessions with different teams. Understanding the 'AS IS' system and conducted GAP and impact analysis.
+* Handled Requirement Tractability Matrix(RTM) document to maintain change control and version control.
+* Worked on Agile Scrum methodology of SDLC and involved in release, eliciting user stories and supported the design, development and testing team on daily basis.
+* Used SQL to analyze the data and check the validation and internal data from end to end systems.
+Environment:RUP Methodology, Microsoft Word, Facets, Microsoft Excel, Microsoft PowerPoint, Rational Requisite Pro, Rational Rose, Oracle 10g and Window XP
+
+CLIENT: Aadhya Solutions, Hyderabad ,India 
+DURATION :MAR'2015-DEC'2015
+ROLE: APPLICATION ANALYST.
+Responsibilities:
+
+* Facilitate meetings with stakeholders and Subject Matter Experts(SME) to elicit business requirements and generate cross team functionality. Identify potential process improvements, quick wins and project dependencies.
+* Regular exposure to business stakeholders and executive management, as well as the authority and scope to apply expertise to many interesting technical problems.
+*  Strong understanding of UI, cross-browser compatibility, general web functions and standards.
+* Writing and editing content.
+* Designing webpage layout and Determining technical requirements.
+* Translate business requirements to functional requirements within functional design documents.
+* Successfully act as a conduit between IT development team and all other business teams.
+* Worked closely with the web development team to help them understand the requirements and supported the implementation efforts by answering questions of the developers related to the requirements.
+* Involved in all phases of software development life cycle (SDLC)
+* Participated in daily Scrum meetings.
+* Effectively communicate project expectations to team members and stakeholders in a timely and clear fashion.
+* Develop and deliver progress reports on requirements, prepare requirements documentation, and presentations.
+* Performed User stories and maintained sprint burn down chat to display the status of the sprint cycle.
+* Interacted with Product Owners, Scrum Master and gathered requirements as per the business needs.
+* Communicated with Business Partners on status of issues, action plans, and timeframe for resolution throughout development cycle.
+* Planning scope and monitoring project development life cycles.
+
+Environment:UML, MS Project, Microsoft Office 2010/2013 (Outlook, word, excel, access),Microsoft share point 2010/2013, Agile Scrum,Visio,ERP, SQL.
+
+CLIENT: Zolt Info Solutions Pvt.Ltd. Hyderabad, India          DURATION:APR'2013-OCT'2014 
+ROLE:BA/QA Analyst.
+Responsibilities: 
+
+* Participated in System Design Discussion.
+* Worked in an Agile environment, Software Development Life cycle(SDLC) experience including analysis, design and review of business and software requirement specifications.
+* Coordinated with the users for the new requirements for the reporting Purposes.
+* Worked with managers and Users to develop business requirements and to analyze /Model Current and Proposed Business Process Flows.
+* Prepared the Business Requirements Document (BRD's) and the Use Case Specification Documents using Rational Requisite Pro as Requirement Gathering Tool.
+* Assisted QA team by reviewing test plans, test cases and clarifying requirements to ensure complete coverage of requirements.
+* Conducted JAD Sessions for better understanding and refining of requirements in coordination with multiple teams.
+* Communicating and working with Designers and QA team to understand requirements and updating Jira for progress and defect tracking.
+* Gathering, blueprinting and analysing requirements using Requisite Pro and Requisite Web
+* Extensively used Agile Methodology in the process of the project management based on SDLC.
+* Mapped high-level to-be designs using Business Process Modelling Notation (BPMN) on MS Visio.
+* Extensively involved in data modelling
+* Data mapping, logical data modelling, created class diagrams and ER diagrams and used SQL queries to filter data within the Oracle database
+* Gathered and documented Business Requirements, created Functional specifications and translated them into Software Requirement Specifications.
+* Conducted the whole project in Agile and Scrum framework.
+* Worked closely with team members in understanding the technical requirements of each project and prepared the use cases for different functionalities and designs.
+* Involved in developing of design documents with UML class diagrams.
+* Translated business user concepts and ideas into comprehensive business requirements and design documents.
+* Possess good analytical skills, which enabled to analyze data with ease.
+* Strong problem-solving, organizing, communication and planning skills, with ability to work in team environment.
+* Drafted requirements Traceability matrix to ensure the requirements are refined in concise and accurate manner.
+Environment:Jira, UNIX, SQL, html &CSS, UML, RUP, UML, BPMN, Rational Requisite Pro, Rational Rose, MS-Visio, MS Office, SQL
+
+CLIENT:AdvikaSolutions,Hyderabad,India.
+DURATION:MAR'2011-JAN'2013
+ROLE:BUSINESS ANALYST                                                                                       
+Responsibilities: 
+
+* Prepared system documentation for upgrades and new system functionality.
+* Controlled processing parameters for system control files.
+* Performed ongoing quality assurance to ensure accuracy and consistency of output in the system
+* Acted as project team member on [company name] Blue Shield of Michigan's initiative to combine a local and national claims processing system into one single platform
+* Working with Medicare operational management to monitor, trend and report on operational metrics such as timeliness, workload, and staff trending, customer satisfaction, and other key measures to facilitate performance excellence.
+* Interacted with healthcare clients to gather requirements, objectives, and input and output requirements.
+* Was involved in managing the Daily Standup meetings and also ensured that quality standards were enforced as per the build-release schedule.
+* Documented various workflow diagrams like AS-IS and TO-BE processes.
+* Translated Business requirements to functional and technical language with the help of Use cases and UML diagrams for developers.
+* Developed flowchart and process diagram using MS Visio.
+* Responsible for creating tracking system for daily schedules.
+* Responsible for other duties as assigned.
+*  Developed business requirement updates while working with different concerned authorities to define priorities.
+* Developed data conversion programs for membership, claims, and benefit accumulator data - converted thirteen corporate acquisitions. Developed data field mappings. Provided programming and support for claims processing functions and auto-adjudication.
+* Documented Requirements for Management Reporting out of Clear Quest using Crystal Reports.
+* Facilitated Change Control Board and Governance Board meetings and acted as a liaison between parties impacted by the change requests.
+* Provided training on new features within CQ and prepared training materials like Quick Reference Guides and Job aids.
+* Understood and articulated business requirements by having sessions with different teams. Understanding the AS IS' system and conducted GAP and impact analysis.
+* Gathered business rules and prepared requirement documentations.
+* Performed User stories and maintained sprint burn down chat to display the status of the sprint cycle.
+* Interacted with Product Owners, Scrum Master and gathered requirements as per the business needs.
+* Communicated with Business Partners on status of issues, action plans, and timeframe for resolution throughout development cycle.
+Environment: SQL Server, UML, MS Visio, MS Access, MS Excel, MS PowerPoint
+
+
+
+
+
+
+
+
+1
+
+

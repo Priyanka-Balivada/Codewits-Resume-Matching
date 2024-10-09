@@ -1,0 +1,48 @@
+EDUCATION 
+
+Bachelor of Engineering(Electronics And
+Telecommunications Engineering) 
+Sinhgad College of Engineering, Vadgoan ,
+Pune, MH, IN 
+C.G.PA - 7.8 
+Courses 
+
+Completed Honour course
+in Artificial Intelligence
+and Machine
+Learning(SPPU). 
+Higher Secondary Education( CBSE) 
+NARAYANA VIDYALAYAM, Nagpur, MH, IN. 
+Primary And Secondary Education (CBSE) 
+IRA INTERNATIONAL SCHOOL, Nagpur, MH,
+IN. 
+PROJECTS 
+
+Real-Time Chatroom 
+Designed and implemented a Real-Time Chat Room with Firebase backend integration using JavaScript. 
+A Weather App Using JavaScript 
+Built a Weather App with JavaScript, demonstrating adeptness in utilizing APIs for real-time data, enhancing user experience through dynamic design and interactive features. 
+Interactive GK Quiz Using JavaScript 
+Created an Interactive GK Quiz using JavaScript, highlighting proficiency in frontend development and user engagement techniques. 
+Food Classification Using Raspberry Pi 
+The Main Purpose Of The Project Is To Find Out Recipe By Using Image Processing. 
+SKILLS 
+
+CERTIFICATES 
+
+1) Getting started with AWS Machine learning 
+2) Google Digital Garage CertIficate 
+3) Introduction to cloud Identity Google Cloud 
+4) Global Dialect German Level-1 Certificate 
+5) Global Dialect German Level-2 Certificate 
+6) Coding Ninjas Certificate of Excellence in
+Introduction to C++ 
+7) PrepSAT Hackathon Ranked 5415/ 90678 
+LANGUAGES 
+
+ENGLISH 
+Native or Bilingual Proficiency HINDI 
+Native or Bilingual Proficiency MARATHI 
+Native or Bilingual Proficiency GERMAN 
+Limited Working Proficiency INTERESTS 
+

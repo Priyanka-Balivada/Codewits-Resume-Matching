@@ -1,0 +1,44 @@
+john.doe@example.com
+mary.smith@gmail.com
+robert.jones@hotmail.com
+sarah.miller@yahoo.com
+david.wilson@company.org
+emily.jones@emailprovider.net
+alexander.brown@emailservice.com
+jennifer.white@exampledomain.com
+brian.taylor@emailhosting.org
+lisa.johnson@workplace.com
+
+SGPA: 8.5
+SGPA: 9.2
+SGPA: 7.8
+SGPA: 8.9
+SGPA: 9.5
+SGPA: 7.2
+SGPA: 8.0
+SGPA: 9.7
+SGPA: 8.4
+SGPA: 7.6
+
+
+CGPA: 9.0
+CGPA: 8.7
+CGPA: 8.2
+CGPA: 9.5
+CGPA: 8.9
+CGPA: 7.8
+CGPA: 9.2
+CGPA: 8.4
+CGPA: 7.6
+CGPA: 9.3
+
+GPA: 7.5
+GPA: 8.2
+GPA: 6.8
+GPA: 9.0
+GPA: 8.5
+GPA: 7.2
+GPA: 8.8
+GPA: 6.5
+GPA: 9.5
+GPA: 7.9

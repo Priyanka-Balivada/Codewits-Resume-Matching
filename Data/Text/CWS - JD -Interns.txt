@@ -1,0 +1,39 @@
+Job Description - Fresher Developers
+About us:
+We are Codewits, an outsource product development company, based in Pune, India, offering valuable services to all product development companies and demonstrating diverse innovations across various domains. Here we work on the latest and challenging technologies and domains, and have a generally flat structure where pretty much everyone codes. The founders too are deeply involved in every project guiding the teams and contributing code.
+For bold and creative individuals, Codewits Solutions provides limitless growth opportunities. We hire extraordinary talent who continually seek opportunities to tackle challenges. We pride ourselves on an inclusive culture and collaborative spirit. Speaking up and listening to others is not just encouraged, but expected. We thrive together and champion each other's successes, providing our employees with rich experiences to help them develop resiliency and skills, positioning them to grow into future roles
+Experience: 0-1+ years
+We are looking for dedicated engineers and development enthusiasts who are passionate about creating next generation software and web applications . Therefore, a commitment to collaborative problem solving, sophisticated design, and the creation of quality products are essential.
+Job Role:
+? Develop product features
+? Troubleshoot, debug and upgrade existing code
+? Recommend and execute improvements
+? Create technical documentation for reference and reporting
+Preferred with knowledge:
+? Having a good understanding & hands-On of AWS services
+? Knowledge of Node.js + Express and frameworks available for it.
+? Experienced with NoSQL DB
+About us:
+We are Codewits, an outsource product development company, based in Pune, India, offering valuable services to all product development companies and demonstrating diverse innovations across various domains. Here we work on the latest and challenging technologies and domains, and have a generally flat structure where pretty much everyone codes. The founders too are deeply involved in every project guiding the teams and contributing code.
+For bold and creative individuals, Codewits Solutions provides limitless growth opportunities. We hire extraordinary talent who continually seek opportunities to tackle challenges. We pride ourselves on an inclusive culture and collaborative spirit. Speaking up and listening to others is not just encouraged, but expected. We thrive together and champion each other's successes, providing our employees with rich experiences to help them develop resiliency and skills, positioning them to grow into future roles
+Who are we hiring for:
+We are hiring for a stealth mode startup working in the application security space. We are backed by strong Angel investors with proven track records.
+What we want:
+Experience level: 8+ Years
+Must have:
+? 8-10 years of full time hands on experience in full-stack programming.
+? 4-5 years experience in developing microservices using NodeJS along with unit testing. ? 2-3 years experience in React.
+? 1-2 years experience in MongoDB ( or any other document db). ? 1-2 years experience in designing microservices.
+? Fundamentals of server side programming should be rock solid.
+? Strong in algorithm and data structures.
+? Fundamental understanding in Cloud(serverless if possible).
+Good to have:
+? Startup experience.
+? Experience in AWS serverless technologies(Lambda,API Gateway,AppSync etc).
+? Exposure to CI/CD tools like - Terraform, GitLab Pipeline.
+? Good communication skills.
+? Exposure in the Application Security domain.
+? Understanding of GraphQL is a bonus.
+What you will do:
+? E2E development of complex cloud based services including UI for the services. ? Take responsibility for junior members and groom them to the next level.
+Kothrud, Pune |info@codewits.in |www.codewits.in
