@@ -1,190 +1,0 @@
-JAGADEESH
-Jagadeesh14917@gmail.com
-(872) 216-6679
-
-PROFESSIONAL SUMMARY:
-* Around 8 years of Technical Experience in developing Java/J2EE applications
-* Experience in all phases of Project & Product development life cycle that includes System Study, Analysis, Design, Development, Integration, Testing, Deployment, Maintenance, Re-Engineering, and Documentation 
-* Worked in developing Core Java applications and Object Oriented design with strong knowledge in Collections, Multithreading and exception handling.
-* Experienced in developing the UI screens using HTML5, CSS, JavaScript, JQuery, Ajax, bootstrap, Node JS, Angular JS.
-* Experience in using frameworks like Struts, Spring MVC, JSF, JDBC and build tools like ANT, MAVEN, JENKINS and logging framework log4J.
-* Experience in working on various spring modules (Spring MVC, DAO and AOP) along with Hibernate as the back-end ORM tool for implementation of persistence layer and mapping of POJOs.
-* Experience in Java Web Services with using REST, SOAP, WSDL and UDDI, JAXB technologies in Contract-first and Code-first approaches
-* Experience in implementing Design Patterns like Singleton, Factory, Session Facade, MVC, Data Access Object and Business Delegate
-* Excellent experience in the design, development and implementation of Model-View-Controller (MVC) using a Struts Framework, Design Patterns and DAO's using Hibernate, J2EE Architecture, SDLC, Software Engineering, Object Modeling, Data Modeling, UML
-* Experience writing JUnit and TDD for application integration testing and unit testing 
-* Expertise in Web Front End Technologies Struts, Tag Libraries and Struts custom validation rules, Tiles, JSTL, Java Script, DHTML and XML/XSL 
-* Hands on experience in implementing client-server business applications using MVC, SOA architecture and Micro Services
-* Have good knowledge on Single Sign On(SSO) and Identity Management
-* Strong working experience using XML DTD and XML Schemas. Experienced in parsing (DOM and SAX) XML using JAXP API
-* Experienced in API's design and Implementations. 
-* Experienced in JMS over messaging to exchange the information in more reliable and asynchronous way in enterprise Applications. Used Apache Active MQ and Apache Camel as JMS provider
-* Experience on different IDEs such as RAD, Eclipse, Spring Tool Suite[STS] and deployment using Application Servers like Pivotal Cloud Foundry, BEA Web Logic, JBOSS, IBM Web Sphere and Apache Tomcat 
-* Experienced in RDBMS such as Oracle, Cassandra, MySQL, PostgreSQL and IBM DB2 databases. Used NoSQL DB database Mongo DB for proof of concept and having Experience in create a Stored Procedures and having Experience in Remote Procedure call (RPC) and Redis
-* Excellent in deploying the applications in AWS as EC2 instances and create snapshots for the data that must be stored in AWS S3
-* Created and Configure micro service architecture for CDT Directory project and integrated with AngularJS application
-* Created continuous delivery pipeline for CDT Directory to run the war, Ami and deploy jobs in Jenkins brew master instance, which reduces the time for the deployment of micro services
-* Strong SOA, Rest Services and Web Services experience
-* Developed Networking policies for Docker Containers. Worked on Open source development tools like Docker Containers, Mesos, Kubernetes. Also, worked on GitHub.
-* Proficient in SQL and wrote Stored Procedures, Triggers besides writing DDL, DML and transaction queries with development tools like TOAD and Aqua Data Studio
-* Subversion (SVN), CVS, GitHub and Visual Source Safe as versioning software tools
-* Experience in working with ORM tools like Hibernate and Top Link Essentials
-* Ability to work effectively on the UNIX, Linux and OSX platforms
-* Excellent Analytical, Communication and Interpersonal skills.  Good experience in developing applications using Agile Scrum methodology
-
-
-TECHNICAL SKILLS:
-LanguagesJava, J2EE, SQL, PL/SQLJ2EE TechnologiesServlets, JDBC, JSP, JSF, JMS, EJB, JNDI, Java SecurityMark-up/XML TechnologiesDHTML, XHTML, HTML5, JavaScript,  Node JS, AngularJS, CSS, CSS3, XML, XSD,
-XSL/XSLT, SAX/DOM, AJAX, JQuery, JSONTools & FrameworkStruts, Spring, Hibernate, Spring MVC, Spring Web Flow, Spring IOC, Spring
-AOP, Spring Boot, JSF, JUnit, SOAP UI, Groovy, ANT, Maven, Jenkins, Apache
-Active MQ, Apache CamelWeb services SOAP, Restful, UDDI, WSDL, JAX-RPC, JAX-RS, JAX-WS, JAX-B, Axis2,
- Micro Services, AWS (Amazon Web Services)Web/App Servers IBM Web Sphere, Apache Tomcat, JBoss EAP, Web Logic Server, GlassfishDatabase Oracle, SQL-Server, PostgreSQL, MySQL server, TOAD, Casandra, MongoDB/NoSQLIDEs Eclipse, IntelliJ, Spring Tool Suite(STS), RADO-R mapping Hibernate, MyBatisModeling/ CASE Tools Rational Rose, MS Visio ProfessionalTesting Tools/ Others JUnit, Soap UI, Putty, Rational Clear Quest, RTC, StarTeamVersion Control Tortoise SVN, CVS, Rational Clear case, Git and Mercurial, DockerOS & Environment  Windows Vista/XP/2000/NT, Win 2k Server, Sun Solaris, UNIX, Linux
-PROFESSIONAL EXPERIENCE:
-                                                                                                                                   
-Client: Nationwide Insurance, Columbus, OH		                                                                            April 15 - Till Now
-Role: Sr. Java/J2EE Developer							                                   
-Project: CIQ (commercial Internet Quote)
-
-Description: 
-Nationwide Mutual Insurance Company is well known for providing insurance and financial services in the United States. One of the Web Application CIQ involves the design and development of a Web based internet application to provide online insurance services. The web application provides functionalities such as Internet Insurance Quote for Customers and Agents. The customer can access complete account information, policy information, and receive instant auto insurance quote and report a claim. Developed from scratch therefore involved in Design and Development of the web application until deployment and production support.
-
-Responsibilities:
-* Worked as per Agile Methodology(Scrum) to meet customer expectation, timelines with quality deliverables
-* Extensively worked with business analysts and the end users to gather and finalize the requirements
-* Developed the User Interface using JSP, Spring MVC, HTML5, CSS3, JavaScript, Node JS and enhanced response using twitter Bootstrap/-
-* Used JQuery to handle cross browser issues and to produce more interactive pages 
-* Used Two-way data binding features of AngularJS to implement Data binding to bind various server controls to the data from database
-* Designed and implemented AJAX server calls to dynamically retrieve customer information.
-* Used the Spring IOC feature to get Hibernate session factory and resolve other bean dependencies Also used Spring framework AOP features
-* Created Hibernate mapping files, sessions, transactions, Query and Criteria's to fetch the data from SQL based schema 
-* Implemented the application using Spring IOC, Spring MVC Framework, Spring Batch, Spring Boot and handled the security using Spring Security
-* Implemented Batch jobs using Spring Batch Framework to execute the similar jobs simultaneously   
-* Developed the persistence layer using Hibernate (ORM) Framework, created the POJO objects and mapped using Hibernate (ORM) annotations 
-* Implemented service methods and SQL queries, PL/SQL to interact with the Oracle DBMS
-* Designed and implemented stored procedures, functions and packages to store information from various sources for risk analysis using PL/SQL
-* Installed, secured, and configured AWS cloud servers and Amazon AWS virtual servers (Linux)
-* Experienced working with database setup and maintenance on AWS EC2
-* Designed and implemented MongoDB based database and created REST enabled Web Services
-* Designed and developed XML validation functionality and store XML document in database 
-* Designed and developed functionality to retrieve XML document from database and un-marshaling XML document to JSON document 
-* Designed and developed RESTful Services to retrieving configuration JSON documents related to customer
-* Identified, reported and managed defects using defect tracking system using JIRA
-* Created UNIX shell scripting for periodic generation of reports
-* Used Eclipse Luna as IDE to develop the application and followed the standard features for debugging and running
-* Log4J was used to monitor the error logs and used migrated Docker to GIT as version control tool 
-* Followed the Maven build life cycle to build the application and deployed into Tomcat application server
-* Developed test cases and performed unit testing using JUnit
-Environment: Core Java, Java/J2EE, JDK, Spring MVC, Spring Boot, Spring Batch, Spring Security, Hibernate(ORM), Apache Tomcat, Agile methodology, RESTful Web Services, JSP, MySQL, Teradata, MongoDB HTML5, CSS3, Java Script, JQuery, Angular JS, Node JS, Bootstrap, MongoDB, Oracle, SQL, PL/SQL, Maven, Eclipse, Log4j, JUnit, GIT, Docker, AWS EC2, JIRA.
-
-                                       
-Client: CISCO, San Jose, CA                                                                                                                                    Feb 13 - March 15
-Role: Sr. Java/J2EE Developer
-Project: Resource Management System
-
-Description: 
-CISCO is the worldwide leader in networking that transforms how people connect, communicate and collaborate. SSTG (Smart Services Technology Group) is one of the core engineering teams in CISCO that builds customer-focused software support tools and components.  Resource Management System is an internal tool developed under SSTG.  Resource Management System is used by the managers of departments to search for the resources based upon particular skill set.  Resources can be selected to check their availability and to find the details about the projects they are working on.
-
-Responsibilities:
-* Worked on High level and low level system design, planning, estimation and implementation
-* Developed presentation layer using JSP, Struts Tag libraries, HTML, XHTML, CSS and client validation using JavaScript, DOM
-* Used two-way data binding features of AngularJS to implement Data binding to bind various server controls to the data from database
-* Implemented animation and styling using CSS3 and JQuery
-* Involved in writing JSP and JSF components. Used JSTL Tag library to create standard dynamic web pages
-* Worked on XML and JSON for transferring and retrieving data between different applications
-* Worked on generating the web services classes by using Service Oriented Architecture Micro Services, SOA, WSDL, UDDI and SOAP and Deployed in AWS.
-* Designed and integrated the full-scale Struts/ Hibernate persistence solution with the application architecture
-* Implemented Object Relational Persistence(Hibernate) for the domain model
-* Involved in design and development of the Hibernate Domain Model(ORM) for the services
-* Worked on web services and associated business modules integration
-* Worked on development and implementation of the MVC Architectural pattern using Struts Framework including JSP, JSF, Servlets and Action classes
-* Involved in identifying and implementation of different J2EE design patterns like Service Locator, Business Delegate, and DAO
-* Responsible for developing Use case diagrams, class diagrams, Sequence diagrams and process flow diagrams for the modules using UML and Rational Rose
-* Developed the DAO layer for the application using Spring Hibernate template support
-* Used JMS API for communication between the components
-* Implemented the NoSQL databases like Casandra and later writing complex PL/SQL queries using joins, Stored Procedures, Functions, Triggers, cursors, and indexes in Data Access Layer using PostgreSQL, Cassandra as a database.
-* Collaborated with testers and developers and prepared test plans for producing high quality software applications
-* Experience in using JUnit and build tools such as MAVEN
-* Worked on Log4j for logging errors, messages and performance logs and SVN for version control
-* Deployed and tested the application in Unix on JBOSS Application Server
-Environment: Java, J2EE, HTML, Hibernate, Java SDK, SOA, Micro Services, WSDL, UDDI, SOAP, JavaScript, JMS, Struts,
-JSON, Servlet 2.2, JSF, JSP, CSS3, HTML, Cassandra, AWS, PostgreSQL, DHTML, JQuery, Angular JS, AJAX, JDBC, Oracle, Maven, Log4J, SVN, UML, JAXB, XML, Scrum, Unix/Linux, JUnit.
-
-
-
-Client: John Deere Financial, Johnston, IA                                                                                                   Nov 11 - Feb 13
-Role: Java/J2EE Developer
-
-Description:
-Customer Self Service application is used by all John Deere Financial customers where they can pay the loan and view the loan details. It will process direct payments for Installment, Lease and Revolving account customers. CSS has more than 450000 accounts. This Multi-language based application and handle English and French languages.
-
-Responsibilities:
-* Involved in deployment of full Software Development Life Cycle (SDLC) of the tracking system like Requirement gathering, Conceptual Design, Analysis, Detail design, Development, System Testing and User Acceptance
-* Worked in Agile Scrum methodology
-* Involved in writing exception and validation classes using core java
-* Worked with Java and Big Data NoSQL database Cassandra
-* Designed and implemented the user interface using JSP, XSL, DHTML, Servlets, JavaScript, HTML, CSS and AJAX
-* Developed framework using Java, MySQL and web server technologies
-* Experience in developing server side of an application using NodeJS and Java
-* Validated the XML documents with XSD validation and transformed to XHTML using XSLT
-* Implemented cross cutting concerns as aspects at Service layer using Spring AOP and of DAO objects using Spring-ORM
-* Spring beans were used for controlling the flow between UI and Hibernate
-* Services using SOAP, WSDL, UDDI, JAXB and XML using CXF framework tool/Apache Commons
-* Worked on MongoDB database interaction layer for insertions, updating   and retrieval operations of data from data base by using queries and writing stored procedures
-* Wrote Stored Procedures and complicated queries for IBM DB2. Implemented SOA architecture with Web
-* Used Eclipse IDE for development and JBoss Application Server for deploying the web application
-* Used Apache Camel for creating routes using Web Service
-* Used JReport for the generation of reports of the application
-* Used Web Logic as application server and Log4j for application logging and debugging
-* Used CVS version controlling tool and project build tool using ANT
-
-Environment: Java, J2EE, HTML, CSS, JSTL, JavaScript, Servlets, JSP, Hibernate, Struts, Web Services, Eclipse, NodeJS, JBoss, JSP, JMS, JReport, Scrum, No SQL (MongoDB), MySQL, IBM DB2, SOAP, WSDL, UDDI, JAXB, AJAX, XML, XSD, XSLT, Oracle, Linux, JBoss, Log4J, JUnit, ANT, CVS
-					
-Client: YASH Technologies, Pune, India 	                                                                                               Nov 2009 - Oct 2011	
-Role: Java/J2EE Programmer
-Project: System Management
-
-Description: The objective of this project is to implement a web based front end system which can be used by the employees, managers and higher level management having specific role permissions for effective processing of day to day business activities in the company like leave management, project management and resource management etc.
-
-Responsibilities:
-* Developed the application using Struts Framework that leverages classical Model View Controller (MVC) architecture.
-* Designed the user interfaces using JSPs, developed custom tags, and used JSTL Taglib.
-* Developed various java business classes for handling different functions.
-* Developed controller classes using Struts, EJB and tiles API.
-* Involved in Documentation and Use case design using UML modeling include development of Class diagrams, Sequence diagrams, and Use Case Transaction diagrams.
-* Participated in design and code reviews
-* Developed User Interface using AJAX in JSP and also performed client-side validation.
-* Developed JUnit test cases for all the developed modules. Used SVN as version control.
-
-Environment: Java, J2EE, JSP, Struts, EJB JNDI, DB2, HTML, XML, DOM, SAX, ANT, AJAX, Rational Rose, Eclipse, SOAP, Apache Tomcat, Oracle 10g, LOG4J, SVN.
-
-
-Client: Zealous Web Technology, Gujarat, India      		                 			Jul 2008 - Oct 2009
-Role: Software Developer
-
-Description: The goal of this project was to develop an online system to facilitate the tracking of various projects and related resources. The system implemented various user levels for the security purposes. Development was mainly done using Servlet for Back-End and JSP for Front-End. 
-Responsibilities:
-* Involved in understanding and analyzing the requirements of the project.
-* Implemented server side programs by using Servlets, EJB and JSP.
-* Designed, developed and User Interface using HTML, JavaScript, AJAX and CSS.
-* Used JavaScript to perform Client Side Validation.
-* Implemented using the MVC design pattern.
-* Responsible for designing, coding and developed the application in J2EE using Struts MVC. 4
-* Developed Controller Servlets, Action and Action Form objects for process of interacting with MySQL database using Struts.
-* Developed SQL Queries to interact with the MY SQL Database and used JDBC to interact with the Database. 
-* Involved in Unit testing for various components.
-* Used Log4J for any logging purposes during the development of the application.
-* Used Apache Tomcat Server to deploy the build.
-* Used Clear Case as repository to control versioning of projects
-Environment: Java, J2EE, JSP, EJB, Servlets, HTML, JavaScript, Struts, MVC, JDBC, MYSQL, Unit Testing, My Eclipse IDE, UNIX, Log4j, Tomcat Application Server.
-
-
-
-
-		
-
-
-
-
-
-
-
