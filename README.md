@@ -24,7 +24,7 @@ This application is designed to help recruiters and hiring managers efficiently 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/parthkulkarni04/Resume-Matching-Codewits.git
+git clone https://github.com/Priyanka-Balivada/Codewits-Resume-Matching.git
 ```
 2. Navigate to the project directory:
 ```bash
